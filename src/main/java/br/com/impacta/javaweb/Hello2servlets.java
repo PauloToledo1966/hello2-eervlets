@@ -27,7 +27,7 @@ public class Hello2servlets extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append(" response.getWriter().append(\"Paulo Toledo PCT\"); ").append("Toledo");
+		response.getWriter().append("Paulo Toledo").append(" - PCT");
 	}
 
 }
